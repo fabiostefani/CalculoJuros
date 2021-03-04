@@ -16,7 +16,7 @@ namespace ApiCalculoJuros.Controllers
         }
 
         [HttpGet]
-        public ShowTheMeCodeReturnView GetUrlGitGub()
+        public ShowTheMeCodeReturnView ObterUrls()
         {
             return _aplicShowMeTheCode.ObterUrls();
         }

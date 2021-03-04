@@ -19,7 +19,6 @@ namespace ApiCalculoJuros.Controllers
         public async Task<decimal> CalcularAsync([FromQuery] CalculaJurosDto dto)
         {
             return await _aplicCalculoJuros.CalcularAsync(dto);
-
         }
     }
 }
