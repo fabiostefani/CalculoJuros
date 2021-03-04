@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCalculoJuros", "ApiCalculoJuros\ApiCalculoJuros.csproj", "{1E80D498-4A6C-4769-A472-8B8A3C69604D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao", "Aplicacao\Aplicacao.csproj", "{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E80D498-4A6C-4769-A472-8B8A3C69604D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E80D498-4A6C-4769-A472-8B8A3C69604D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E80D498-4A6C-4769-A472-8B8A3C69604D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E80D498-4A6C-4769-A472-8B8A3C69604D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A474BAD-1C16-4A5C-B056-0B10A26E2DF8}
+	EndGlobalSection
+EndGlobal
