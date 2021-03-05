@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCalculoJuros", "ApiCalculoJuros\ApiCalculoJuros.csproj", "{1E80D498-4A6C-4769-A472-8B8A3C69604D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculoJuros", "ApiCalculoJuros\ApiCalculoJuros.csproj", "{1E80D498-4A6C-4769-A472-8B8A3C69604D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao", "Aplicacao\Aplicacao.csproj", "{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacao", "Aplicacao\Aplicacao.csproj", "{ECD4F8B8-BA9C-4AF3-8634-F157B4F8AA9E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{8A79565C-B3EC-4679-921B-D88060B2CC53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao.Testes", "Aplicacao.Testes\Aplicacao.Testes.csproj", "{3829EE19-FF0E-4007-9450-0F0FF606986F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacao.Testes", "Aplicacao.Testes\Aplicacao.Testes.csproj", "{3829EE19-FF0E-4007-9450-0F0FF606986F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCalculoJuros.Testes", "ApiCalculoJuros.Testes\ApiCalculoJuros.Testes.csproj", "{0033FC83-D9B7-4521-9002-28AE04DE9DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculoJuros.Testes", "ApiCalculoJuros.Testes\ApiCalculoJuros.Testes.csproj", "{0033FC83-D9B7-4521-9002-28AE04DE9DED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculoJuros.TestesIntegracao", "ApiCalculoJuros.TestesIntegracao\ApiCalculoJuros.TestesIntegracao.csproj", "{DB3BD0AB-5AA9-430E-806D-4F9A32B7DB28}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BAC0CB85-E3FC-49C2-909A-C9A91210B4CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{0033FC83-D9B7-4521-9002-28AE04DE9DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0033FC83-D9B7-4521-9002-28AE04DE9DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0033FC83-D9B7-4521-9002-28AE04DE9DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3BD0AB-5AA9-430E-806D-4F9A32B7DB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3BD0AB-5AA9-430E-806D-4F9A32B7DB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3BD0AB-5AA9-430E-806D-4F9A32B7DB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3BD0AB-5AA9-430E-806D-4F9A32B7DB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC0CB85-E3FC-49C2-909A-C9A91210B4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC0CB85-E3FC-49C2-909A-C9A91210B4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC0CB85-E3FC-49C2-909A-C9A91210B4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC0CB85-E3FC-49C2-909A-C9A91210B4CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3829EE19-FF0E-4007-9450-0F0FF606986F} = {8A79565C-B3EC-4679-921B-D88060B2CC53}
 		{0033FC83-D9B7-4521-9002-28AE04DE9DED} = {8A79565C-B3EC-4679-921B-D88060B2CC53}
+		{DB3BD0AB-5AA9-430E-806D-4F9A32B7DB28} = {8A79565C-B3EC-4679-921B-D88060B2CC53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A474BAD-1C16-4A5C-B056-0B10A26E2DF8}

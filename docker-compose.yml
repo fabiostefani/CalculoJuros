@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  apicalculojuros:
+    image: ${DOCKER_REGISTRY-}apicalculojuros
+    build:
+      context: .
+      dockerfile: ApiCalculoJuros/Dockerfile
+    ports:
+        - "8002:80"
+    
