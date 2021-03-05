@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace ApiCalculoJuros.Controllers
 {
     [ApiController]
-    [Route("CalculoJuros")]
+    [Route("calculajuros")]
     public class CalculoJurosController : ControllerBase
     {
         private readonly IAplicCalculoJuros _aplicCalculoJuros;

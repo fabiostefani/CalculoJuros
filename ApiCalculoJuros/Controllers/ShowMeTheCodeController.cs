@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ApiCalculoJuros.Controllers
 {
     [ApiController]
-    [Route("ShowMeTheCode")]
+    [Route("showmethecode")]
     public class ShowMeTheCodeController : ControllerBase
     {
         private readonly IAplicShowMeTheCode _aplicShowMeTheCode;
